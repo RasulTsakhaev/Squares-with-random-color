@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(133, 161, 170);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.tekst {
+}
+.Frame-container {
+  background-color: rgb(35, 35, 77);
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.square {
+  width: 43px;
+  height: 43px;
+  background: #d9f190;
+  margin: 2px;
+  box-shadow: 0 0 2px rgb(26, 24, 24);
+  transition: 1s linear;
+  border-radius: 30%;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
